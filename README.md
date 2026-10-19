@@ -2,6 +2,13 @@
 
 一个四人单机扑克牌练习项目：一名玩家对战三名 AI。每轮经过准备、发牌、叫分、确定庄家、选择主花色与弃牌、12 墩出牌、结算，然后进入下一轮。
 
+## 玩法展示 Demo
+
+- [观看 / 下载玩法演示（不含控制台输出）](https://github.com/Alpha-3C/Poker-DZ/releases/download/demo-2026-10-19/gameplay-demo.mp4)
+- [观看 / 下载玩法演示（含控制台输出）](https://github.com/Alpha-3C/Poker-DZ/releases/download/demo-2026-10-19/gameplay-demo-with-console.mp4)：Game 视图左上角实时显示轮次、叫分和胜负等日志。
+
+两段视频均为 Unity 编辑器 Game 视图的 Play 模式录制，也可在 [玩法展示 Release 页面](https://github.com/Alpha-3C/Poker-DZ/releases/tag/demo-2026-10-19)找到。
+
 ## 运行方式
 
 1. 使用 **Unity 2022.3.62f1c1** 打开本目录。
