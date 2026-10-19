@@ -9,6 +9,8 @@
 /UserSettings/
 /MemoryCaptures/
 /Recordings/
+/Record Videos/*
+!/Record Videos/.gitkeep
 
 # IDE and generated project files
 /.vs/

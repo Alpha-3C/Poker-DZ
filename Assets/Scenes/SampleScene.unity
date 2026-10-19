@@ -10872,6 +10872,7 @@ GameObject:
   - component: {fileID: 1492982627}
   - component: {fileID: 1492982626}
   - component: {fileID: 1492982625}
+  - component: {fileID: 1492982628}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -10920,6 +10921,19 @@ MonoBehaviour:
   stateMachine: {fileID: 0}
   allPlayerIndexSign: -42
   allSeatIndexSign: -37
+--- !u!114 &1492982628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492982624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6608bfcb33ce47db931145144988b9c6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  recordOnPlay: 0
 --- !u!114 &1492982626
 MonoBehaviour:
   m_ObjectHideFlags: 0

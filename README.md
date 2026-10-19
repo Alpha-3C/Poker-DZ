@@ -9,6 +9,12 @@
 
 项目使用 Unity UI、TextMesh Pro 和 Universal Render Pipeline 等包，依赖记录在 `Packages/manifest.json`。
 
+## 在编辑器中录制演示
+
+项目使用 Unity Recorder 4.0.1 录制 Game 视图，无需打包游戏。在 `SampleScene` 的 Hierarchy 中选中 `GameManager`，在 Inspector 的 `Play Mode Recording Toggle` 组件中勾选 `Record On Play`，然后点击 Play。退出 Play 时录制自动结束，MP4 文件保存在项目根目录的 `Record Videos` 文件夹。录制分辨率为 1920×1080、帧率为 30 fps；每次录制使用带时间戳的新文件名。录制文件已被 Git 忽略。
+
+要关闭自动录制，在开始 Play 前取消勾选该选项并保存场景。
+
 ## 玩法概览
 
 - 使用含大小王的 54 张牌，四名玩家各发 12 张，剩余 6 张为底牌。
